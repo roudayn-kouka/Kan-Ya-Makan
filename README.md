@@ -2,6 +2,16 @@
 
 **Le livre devient une expérience 3D adaptée au profil de l'enfant, sous le contrôle des parents.**
 
+<p align="center">
+  <a href="public/videos/Kan_Ya_Makan_demo_concept.mp4?raw=true">
+    <img src="docs/demo_preview.gif" alt="Aperçu de la démo Kan Ya Makan : création d'une vidéo 3D, couleurs adaptées, langue des signes, jeu et suivi parent" width="820">
+  </a>
+  <br>
+  <a href="public/videos/Kan_Ya_Makan_demo_concept.mp4?raw=true"><b>▶ Regarder la démo complète (7 min 51, avec voix off)</b></a>
+</p>
+
+> Une demande écrite, un document ou un livre de la bibliothèque devient une vidéo 3D, avec une version pour chaque enfant : dyslexie, TDAH, daltonisme, surdité (avatar en langue des signes). Le parent choisit, valide et suit les progrès.
+
 Prototype d'atelier du document unifié (6.16), étendu (version 2) avec les fonctions des chapitres 6 et 6 bis : film 3D de toute l'histoire, création de compte parent avec les besoins de l'enfant, adaptation du site entier au daltonisme, livre éducatif Explorer, import de livres, activités hors écran. Interface en français et en arabe (droite à gauche). Pas de serveur : tout tourne dans le navigateur.
 
 ## Contenus du catalogue (version 3)
@@ -93,3 +103,9 @@ tests/         npm test
 ```
 
 **Écrire le film d'une nouvelle histoire** : ajouter à chaque scène un bloc `film` avec `camera` (`[t, position, cible]`), `actors` (`[t, position, rotation, action]`) et `sounds` (`[t, type]`), `t` allant de 0 à 1 dans la scène. La durée réelle vient de la narration. Sans bloc `film`, une piste par défaut est utilisée (livres importés).
+
+## Équipe
+
+Roudayna Kouka · Ahlem Mastouri · Farah Baraket · Nour Mustapha · Hajer Ibn Nasr
+
+Encadrement : Mme Asma Amdouni — Workshop d'ingénierie, Faculté des Sciences de Tunis, 2026–2027
