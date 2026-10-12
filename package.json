@@ -1,0 +1,25 @@
+{
+  "name": "kan-ya-makan",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Kan Ya Makan (كان يا مكان) — prototype d'atelier : le livre devient une expérience 3D adaptée au profil de l'enfant, sous le contrôle des parents.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test tests/engines.test.js"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^9.3.0",
+    "mammoth": "^1.13.0",
+    "pdfjs-dist": "^6.3.289",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "vite": "^7.1.0"
+  }
+}
